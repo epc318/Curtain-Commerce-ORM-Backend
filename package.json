@@ -1,7 +1,7 @@
 {
   "name": "module-13-challenge-orm",
   "version": "1.0.0",
-  "description": "",
+  "description": "Curtain Commerce is a business solution with serious potential in today's internet-retail saturated market. This application is designed for companies with an e-commerce sector to alter their product data quickly and easily. Curtain Commerce uses mySQL database, sequelize, and insomnia to update product data in a clean and organized way.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
