@@ -27,8 +27,11 @@ Curtain Commerce is a business solution with serious potential in today's intern
 ![Source Code Example](images/source_code_ex.png)
 
 ## Installation
-<p>Node.js, MySQL2, and the Inquirer.js npm packages are necessary to run this application. Copy the files or simply clone the repository. Navigate to the repository via the terminal and run
-<code>npm init</code> follow the prompts until finished. Next, enter <code>npm install</code> from the the root of the directory.</p>
+<p>To run this application on your own machine, you must first clone this repository to your local drive. Next, create a <code>.env</code> file that contains the database name along with your mySQL username and password. Since this application requires node.js, mySQL2, dotenv, and sequelize, these packages must be installed to your directory. To do this, type <code>npm init</code> in the terminal and follow the prompts until finished. Next, type in <code>npm install</code> to install all the necessary packages.</p>
+
+<p>NOTE: Inorder to test routes and view backend functionality in action, the application "Insomnia" must be installed.
+
+* Insomnia Installation links and instructions can be found [Here](https://insomnia.rest/download)
 
 If you're having trouble, take a look at my installation/running the application walkthrough video [Here]()
 
@@ -38,6 +41,7 @@ If you're having trouble, take a look at my installation/running the application
 * Tags:
 
 ## Usage
+<p>After successful installation, touched on in the section above, type <code>npm run seed</code> in the terminal to populate the database with the given default data. Next, type <code>npm run seed</code> to start the server; if this is successful you should see a successful connection message. You can now open the Insomnia app and test the routes on your local server!</p>
 
 
 ## Contribution
