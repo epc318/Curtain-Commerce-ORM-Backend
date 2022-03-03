@@ -39,7 +39,7 @@ router.get('/:id', (req, res) => {
         model: Product,
         attributes: ["product_name"],
         through: ProductTag,
-        as: "product"
+        as: "productMod"
       }
     ]
   })

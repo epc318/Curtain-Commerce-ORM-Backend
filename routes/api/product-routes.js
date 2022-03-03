@@ -18,7 +18,7 @@ router.get('/', (req, res) => {
         model: Tag,
         attributes: ["tag_name"],
         through: ProductTag,
-        as: "tag"
+        as: "tagMod"
       }
     ]
   })
@@ -48,7 +48,7 @@ router.get('/:id', (req, res) => {
         model: Tag,
         attributes: ["tag_name"],
         through: ProductTag,
-        as: "tag"
+        as: "tagMod"
       }
     ]
   })
