@@ -16,7 +16,7 @@ Curtain Commerce is a business solution with serious potential in today's intern
 - [Source Code Screenshot](#Code)
 - [Installation](#Install)
 - [Usage](#Usage)
-- [URLs](#Links)
+- [URLs For Testing](#Links)
 - [Contribution](#contributing)
 - [Questions](#questions)
 
@@ -35,10 +35,12 @@ Curtain Commerce is a business solution with serious potential in today's intern
 
 If you're having trouble, take a look at my installation/running the application walkthrough video [Here]()
 
-## URLs
-* Products:
-* Catagories:
-* Tags:
+
+## URLs For Route Testing
+* Products: https://localhost:3001/api/products
+* Catagories: https://localhost:3001/api/
+* Tags: https://localhost:3001/api/tags
+
 
 ## Usage
 <p>After successful installation, touched on in the section above, type <code>npm run seed</code> in the terminal to populate the database with the given default data. Next, type <code>npm run seed</code> to start the server; if this is successful you should see a successful connection message. You can now open the Insomnia app and test the routes on your local server!</p>

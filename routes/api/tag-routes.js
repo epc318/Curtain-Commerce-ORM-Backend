@@ -39,7 +39,7 @@ router.get('/:id', (req, res) => {
         model: Product,
         attributes: ["product_name"],
         through: ProductTag,
-        as: "products"
+        as: "product"
       }
     ]
   })
@@ -64,7 +64,7 @@ router.post('/', (req, res) => {
     tag_name: req.body.tag_name
   })
 
-  .then(dbTagData => res.json(dbTagData))
+  .then(tagData => res.json(tagData))
   .catch(err => {
     console.log(err);
     res.status(500).json(err);
@@ -84,12 +84,12 @@ router.put('/:id', (req, res) => {
     }
   )
 
-  .then(dbTagData => {
-    if(!dbTagData) {
+  .then(tagData => {
+    if(!tagData) {
       res.status(404).json({ message: "This Tag ID wasn't found, please check your input and try again" });
       return;
       }
-      res.json(dbTagData);
+      res.json(tagData);
     })
 
   .catch(err => {
@@ -106,12 +106,12 @@ router.delete('/:id', (req, res) => {
     }
   })
 
-  .then(dbTagData => {
-    if(!dbTagData) {
+  .then(tagData => {
+    if(!tagData) {
       res.status(404).json({ message: "This Tag ID wasn't found, please check your input and try again" });
       return;
     }
-    res.json(dbTagData);
+    res.json(tagData);
   })
 
   .catch(err => {
