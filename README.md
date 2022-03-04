@@ -29,17 +29,23 @@ Curtain Commerce is a business solution with serious potential in today's intern
 ## Installation
 <p>To run this application on your own machine, you must first clone this repository to your local drive. Next, create a <code>.env</code> file that contains the database name along with your mySQL username and password. Since this application requires node.js, mySQL2, dotenv, and sequelize, these packages must be installed to your directory. To do this, type <code>npm init</code> in the terminal and follow the prompts until finished. Next, type in <code>npm install</code> to install all the necessary packages.</p>
 
-<p>NOTE: Inorder to test routes and view backend functionality in action, the application "Insomnia" must be installed.
+<p>NOTE: Inorder to test routes and view backend functionality in action, the application "Insomnia" must be installed.</p>
+
+
+* Example Insomnia Route Test 
+
+![Insomnia](images/Insomnia.png)
 
 * Insomnia Installation links and instructions can be found [Here](https://insomnia.rest/download)
 
-If you're having trouble, take a look at my installation/running the application walkthrough video [Here]()
+
+If you're having trouble, take a look at my installation/running the application walkthrough video [Here](https://watch.screencastify.com/v/nVlfFZknPdLJyXWdRv2b)
 
 
 ## URLs For Route Testing
-* Products: https://localhost:3001/api/products
-* Catagories: https://localhost:3001/api/
-* Tags: https://localhost:3001/api/tags
+* Products: http://localhost:3001/api/products
+* Categories: http://localhost:3001/api/categories
+* Tags: http://localhost:3001/api/tags
 
 
 ## Usage
